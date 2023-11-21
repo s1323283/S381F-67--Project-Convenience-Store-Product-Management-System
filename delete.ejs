@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>delete system</title>
+        <style>
+            label {
+                font-size: 1.5em;       
+            }
+            table, th, td {
+        border:1px solid black;
+        }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">delete one</h2>
+        <form action="delete" method="post" style="text-align: center;">
+            <input type="text" style="width: 343px; height: 52px; border: 2px black solid;" placeholder="ID" name="id">
+            <br><br>
+            <button type="submit">delete</button>
+            <h2 style="text-align: center;">delete All</h2>
+        </form>
+        <form action="Alldelete" method="post" style="text-align: center;">
+        <button type="submit">delete All</button>
+    </form>
+    <form action="getAll" method="get" style="text-align: center;">
+        <button type="submit">Back</button>
+    </form>
+    </body>
+    </html>

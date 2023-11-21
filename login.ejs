@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login system</title>
+    <style>
+        label{
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+<div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+    <div>
+        <div style="color: black; font-size: 36px; font-family: Comfortaa; font-weight: 400; word-wrap: break-word; text-align: center;">Login Convenience Store Product Management System</div>
+        <form action="/login" method="post" style="text-align: center;">
+            <label for="name"><b>Username:</b></label><br>
+            <input type="text" id="username" name="name" placeholder=""><br><br>
+            <label for="password"><b>Password:</b></label><br>
+            <input type="password" id="password" name="password" placeholder=""><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>create system</title>
+        <style>
+            label {
+                font-size: 1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Create New Product</h2>
+        <form action="post" method="post" style="text-align: center;">
+            <input type="text" style="width: 343px; height: 52px; border: 2px black solid;" placeholder="Product Name" name="productName">
+            <br><br>
+            <input type="text" style="width: 343px; height: 52px; border: 2px black solid;" placeholder="Price" name="price">
+            <br><br>
+            <input type="text" style="width: 343px; height: 52px; border: 2px black solid;" placeholder="Best Before Date" name="BestBeforeDate">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <form action="getAll" method="get" style="text-align: center;">
+            <button type="submit">Back</button>
+        </form>
+    </body>
+</html>
